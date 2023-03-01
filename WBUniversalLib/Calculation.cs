@@ -23,14 +23,13 @@ namespace WBUniversalLib
 			Console.WriteLine($"{materialCount}");
 
 			int actualQuantity = 114147;
-
 			Assert.AreEqual(materialCount, actualQuantity);
 
 		}
 
 
 		[TestMethod]
-		public void Calculation_ProductTypeLessThanZero()
+		public void Calculation_ProductTypeLessThanZero() 
 		{
 			MaterialCalculator Calculator = new MaterialCalculator();
 
@@ -44,7 +43,6 @@ namespace WBUniversalLib
 			Console.WriteLine($"{materialCount}");
 
 			int actualResult = -1;
-
 			Assert.AreEqual(materialCount, actualResult);
 
 		}
@@ -63,7 +61,6 @@ namespace WBUniversalLib
 			Console.WriteLine($"{materialCount}");
 
 			int actualResult = -1;
-
 			Assert.AreEqual(materialCount, actualResult);
 
 		}
@@ -83,7 +80,6 @@ namespace WBUniversalLib
 			Console.WriteLine($"{materialCount}");
 
 			int actualResult = -1;
-
 			Assert.AreEqual(materialCount, actualResult);
 
 		}
@@ -103,7 +99,6 @@ namespace WBUniversalLib
 			Console.WriteLine($"{materialCount}");
 
 			int actualResult = -1;
-
 			Assert.AreEqual(materialCount, actualResult);
 
 		}
@@ -123,7 +118,6 @@ namespace WBUniversalLib
 			Console.WriteLine($"{materialCount}");
 
 			int actualResult = -1;
-
 			Assert.AreEqual(materialCount, actualResult);
 
 		}
@@ -143,7 +137,6 @@ namespace WBUniversalLib
 			Console.WriteLine($"{materialCount}");
 
 			int actualResult = -1;
-
 			Assert.AreEqual(materialCount, actualResult);
 		}
 
@@ -162,18 +155,15 @@ namespace WBUniversalLib
 			Console.WriteLine($"{materialCount}");
 
 			int actualResult = -1;
-
 			Assert.AreEqual(materialCount, actualResult);
 
 		}
 
 		[TestMethod]
-		public void Calculation_WidthIsZero()
-		{
+		public void Calculation_WidthIsZero() {
 			MaterialCalculator Calculator = new MaterialCalculator();
 
-			int productType = 0;
-			int materialType = 0;
+			int productType =0, materialType = 0;
 			int count = -15;
 			float width = 0.0f;
 			float height = 20.0f;
@@ -182,41 +172,26 @@ namespace WBUniversalLib
 			Console.WriteLine($"{materialCount}");
 
 			int actualResult = -1;
-
 			Assert.AreEqual(materialCount, actualResult);
 
 		}
 
 		[TestMethod]
-		public void Calculation_ResultOverflow()
-		{
+		public void Calculation_ResultOverflow() {
 			MaterialCalculator Calculator = new MaterialCalculator();
-
-			int productType = 0;
-			int materialType = 0;
-			int count = int.MaxValue;
-			float width = 4.0f;
+			int productType =0, materialType = 0;
+			int count = 4;
+			float width = float.MaxValue;
 			float height = 20.0f;
 
 			int materialCount = Calculator.GetQuantityForProduct(productType, materialType, count, width, height);
 			Console.WriteLine($"{materialCount}");
 
 			int actualResult = -1;
-
 			Assert.AreEqual(materialCount, actualResult);
 
 		}
 
-
-
-
-
-
-
-
-
-
 	}
-
 
 }

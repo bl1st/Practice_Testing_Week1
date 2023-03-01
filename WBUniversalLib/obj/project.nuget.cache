@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MQDUCsvR2/IB9O8U5dlKahewHV0LYNNrFS1jIkVMulxfvZlZfkWijq+3jBVZFnDl5eLUKPvkcM/McqXKccNagw==",
+  "dgSpecHash": "6W0YlZ5w+tKdB2wwIzVaQ3e7ufn8JUavfXGfvpbGLilYZAsaMS+4aDNSZluvkktKsczjl60Ok9w/rJS04r7GkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eduard\\Desktop\\TestApp\\WBUniversalLib\\WBUniversalLib.csproj",
+  "projectFilePath": "C:\\Users\\Eduard\\Desktop\\УП\\Тестирование\\TestApp\\WBUniversalLib\\WBUniversalLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eduard\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Eduard\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eduard\\Desktop\\TestApp\\WBUniversalLib\\WBUniversalLib.csproj": {}
+    "C:\\Users\\Eduard\\Desktop\\УП\\Тестирование\\TestApp\\WBUniversalLib\\WBUniversalLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eduard\\Desktop\\TestApp\\TestApp\\TestApp.csproj": {
+    "C:\\Users\\Eduard\\Desktop\\УП\\Тестирование\\TestApp\\TestApp\\TestApp.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduard\\Desktop\\TestApp\\TestApp\\TestApp.csproj",
+        "projectUniqueName": "C:\\Users\\Eduard\\Desktop\\УП\\Тестирование\\TestApp\\TestApp\\TestApp.csproj",
         "projectName": "TestApp",
-        "projectPath": "C:\\Users\\Eduard\\Desktop\\TestApp\\TestApp\\TestApp.csproj",
+        "projectPath": "C:\\Users\\Eduard\\Desktop\\УП\\Тестирование\\TestApp\\TestApp\\TestApp.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}
@@ -19,14 +19,14 @@
         "net48": {}
       }
     },
-    "C:\\Users\\Eduard\\Desktop\\TestApp\\WBUniversalLib\\WBUniversalLib.csproj": {
+    "C:\\Users\\Eduard\\Desktop\\УП\\Тестирование\\TestApp\\WBUniversalLib\\WBUniversalLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduard\\Desktop\\TestApp\\WBUniversalLib\\WBUniversalLib.csproj",
+        "projectUniqueName": "C:\\Users\\Eduard\\Desktop\\УП\\Тестирование\\TestApp\\WBUniversalLib\\WBUniversalLib.csproj",
         "projectName": "WBUniversalLib",
-        "projectPath": "C:\\Users\\Eduard\\Desktop\\TestApp\\WBUniversalLib\\WBUniversalLib.csproj",
+        "projectPath": "C:\\Users\\Eduard\\Desktop\\УП\\Тестирование\\TestApp\\WBUniversalLib\\WBUniversalLib.csproj",
         "packagesPath": "C:\\Users\\Eduard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eduard\\Desktop\\TestApp\\WBUniversalLib\\obj\\",
+        "outputPath": "C:\\Users\\Eduard\\Desktop\\УП\\Тестирование\\TestApp\\WBUniversalLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eduard\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,8 +42,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Eduard\\Desktop\\TestApp\\TestApp\\TestApp.csproj": {
-                "projectPath": "C:\\Users\\Eduard\\Desktop\\TestApp\\TestApp\\TestApp.csproj"
+              "C:\\Users\\Eduard\\Desktop\\УП\\Тестирование\\TestApp\\TestApp\\TestApp.csproj": {
+                "projectPath": "C:\\Users\\Eduard\\Desktop\\УП\\Тестирование\\TestApp\\TestApp\\TestApp.csproj"
               }
             }
           }
